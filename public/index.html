@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel="stylesheet" href="https://cache.amap.com/lbs/static/main1119.css"/>
+    
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.6&key=c25c09e9b607ea1781a40b55cf3fd9d7&plugin=AMap.Autocomplete,AMap.PlaceSearch,AMap.Driving,AMap.Geocoder,AMap.Geolocation,AMap.ToolBar,AMap.MarkerClusterer,AMap.Scale,ElasticMarker,Map3D,AMap.DistrictSearch"></script>
+    <script src="http://webapi.amap.com/ui/1.0/main.js?v=1.0.11"></script>
+    <script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+  </body>
+</html>
